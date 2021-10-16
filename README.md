@@ -10,6 +10,7 @@ If you are on Mac:
 2. install LaTex Workshop in VSCode Extensions marketplace.
 3. git clone current template repo.
 
+![](./imgs/screenshot.png)
 
 ## License
 MIT License, see [LICENSE](LICENSE).
