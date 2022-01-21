@@ -19,14 +19,15 @@
 \let\indented=\endlist
 
 % ----- Identifying Information -----------------------------------------------
-\newcommand{\myclass}{15-213}
+\newcommand{\myclass}{15-213 Intro to Computer Systems}
+\newcommand{\myhwname}{Malloc Lab}
 \newcommand{\myname}{Andrew Carnegie}
 \newcommand{\myandrew}{andrew@andrew.cmu.edu}
-\newcommand{\myhwname}{Intro to Computer Systems}
 % -----------------------------------------------------------------------------
 \begin{document}
 \begin{center}
-  {\Large \myclass{} \myhwname} \\
+  {\Large \myclass{}} \\
+  {\large{\myhwname}} \\
   \myname \\
   \myandrew \\
   \today
@@ -37,7 +38,47 @@
 
 \section{First section}
 
-\subsection{Sub 1}
+\begin{enumerate}
+\setcounter{enumi}{0}
+
+\item (5 points) How many hosts configure their IP addresses using DHCP?
+What are the IP address(es) of the DHCP server(s)?
+
+\textbf{Answer: }
+
+\begin{center}
+  \includegraphics[scale=0.3]{cmu.png}\\
+  \small{Fig 1.1 First report image}
+\end{center}
+
+The IP address of the DHCP server is \verb|192.168.0.1|.
+
+\end{enumerate}
+
+\subsection{Itemized section}
+
+\begin{itemize}
+  \item {
+    \verb|192.168.0.10-2.0.0.1|: the MAC addresses are from
+    \verb|94:c6:91:a0:75:cf| to \verb|00:50:b6:e2:0f:bb|.
+  }
+  \item {
+    \verb|3.0.0.2-2.0.0.1 #1|: the MAC addresses are from
+    \verb|b8:27:eb:e2:66:9f| to \verb|00:50:b6:bc:87:08|.
+  }
+  \item {
+    \verb|3.0.0.2-2.0.0.1 #2|: the MAC addresses are from
+    \verb|b8:27:eb:c4:73:d4| to \verb|00:50:b6:e2:10:0c|.
+  }
+  \item {
+    \verb|3.0.0.2-2.0.0.1 #3|: the MAC addresses are from
+    \verb|b8:27:eb:c7:01:e6| to \verb|00:50:b6:bc:80:27|.
+  }
+  \item {
+    \verb|3.0.0.2-2.0.0.1 #4|: the MAC addresses are from
+    \verb|b8:27:eb:79:49:98| to \verb|b8:27:eb:40:51:78|.
+  }
+\end{itemize}
 
 \subsection{Sub 2 \& subsubs}
 
